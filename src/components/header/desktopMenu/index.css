@@ -1,0 +1,16 @@
+nav {
+    color: #e83a4b;
+    font-family: Roboto, sans-serif;
+}
+
+nav a {
+    padding: .5rem;
+    margin-right: .2rem;
+    border-radius: 3rem;
+    border: .1rem solid #0000;
+}
+
+
+nav a:hover {
+    border: .1rem solid #e83a4b;
+}

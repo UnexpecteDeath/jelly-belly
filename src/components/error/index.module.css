@@ -1,0 +1,45 @@
+
+.Error {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Error img {
+    width: 250px;
+}
+
+.Error h1 {
+    margin: 50px 0 15px 0;
+}
+
+.Error a {
+    font-weight: 500;
+    font-size: 34px;
+    color: #e83a4b;
+    font-family: "Lobster";
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: gap .25s ease-in-out;
+}
+
+.Error a:hover {
+    gap: 20px;
+}
+
+@media(max-width: 1024px) {
+    .Error h1 {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 462px) {
+.Error h1 {
+    font-size: 32px;
+}
+.Error img  {
+    width: 150px;
+}
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Jelly Belly",
+        "description": "The iconic Jelly Belly brand was originally known as 'Goelitz Confectionery Company' before changing its name in 1976."
+    },
+    {
+        "id": 2,
+        "name": "First Bean",
+        "description": "The first Jelly Belly jelly bean was created in 1918 and was called 'Jelly Belly.'"
+    },
+    {
+        "id": 3,
+        "name": "Presidents",
+        "description": "Jelly Belly jelly beans have been a favorite of presidents for decades, including Ronald Reagan who had a famous love for them."
+    },
+    {
+        "id": 4,
+        "name": "Flavors",
+        "description": "Jelly Belly offers over 100 different flavors, and new flavors are being introduced all the time."
+    }
+]

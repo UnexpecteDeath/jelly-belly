@@ -1,0 +1,29 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loader img  {
+    width: 250px;
+}
+
+.loader h1 {
+    margin: 50px 0 15px 0;
+}
+
+@media(max-width: 1024px) {
+    .loader h1 {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 462px) {
+.loader h1 {
+    font-size: 32px;
+}
+.loader img  {
+    width: 150px;
+}
+}

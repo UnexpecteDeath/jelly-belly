@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Fruity",
+        "description": "From classic favorites like Strawberry and Orange to exotic options like Watermelon and Pineapple, there's a fruity flavor for everyone to enjoy."
+    },
+    {
+        "id": 2,
+        "name": "Sweet & Sour",
+        "description": "Taste the perfect balance of sweet and sour with our collection of tangy flavors, including Lemon, Lime, and Cherry.'"
+    },
+    {
+        "id": 3,
+        "name": "Unique & Intriguing",
+        "description": "Embark on a flavor adventure with Jelly Belly's unique offerings like Butter Popcorn, Toasted Marshmallow, and even a variety of soda flavors.."
+    },
+    {
+        "id": 4,
+        "name": "Seasonal Favorites",
+        "description": "Celebrate the holidays with Jelly Belly's seasonal flavors. Enjoy Pumpkin Spice in the fall or Peppermint Bark in the winter."
+    }
+]

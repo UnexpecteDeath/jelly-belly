@@ -1,0 +1,49 @@
+.recipeCard {
+    background: #f9f5f4;
+    border-radius: 2.5rem;
+    margin: 3rem auto;
+    max-width: 885px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #e83a4b;
+}
+
+.recipeCard p {
+    font-size: 16px;
+}
+
+.recipeCard img {
+    width: 50%;
+    align-self: center;
+    border-radius: 3rem;
+}
+
+.recipeCard h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.recipeCard ul {
+    list-style: none;
+}
+
+.recipeCard a {
+    font-weight: 500;
+    font-size: 30px;
+    color: #e83a4b;
+    font-family: "Lobster";
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: gap .25s ease-in-out;
+}
+
+.recipeCard a p {
+    font-size: 30px;
+}
+
+.recipeCard a:hover {
+    gap: 20px;
+}

@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 12%;
+}
+
+p {
+    color: #e83a4b;
+}
+
+
+@media(max-width: 1024px) {
+    footer {
+        margin: 0 5%;
+    }
+}
+
+@media(max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+}

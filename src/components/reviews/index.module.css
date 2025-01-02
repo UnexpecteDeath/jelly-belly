@@ -1,0 +1,68 @@
+
+.sectionRewiew {
+    margin: 0 5%;
+}
+
+.rewiewCont {
+    padding: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.colapsed {
+    height: 440px;
+}
+
+
+.contButtonRewiew {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreRewiewBtn, .collapseRewiewBtn {
+    border: none;
+    background-color: transparent;
+    font-family: "Lobster";
+    color: #e83a4b;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    transition: gap .25s ease-in-out;
+}
+
+.moreRewiewBtn img {
+    width: 30px;
+}
+
+.collapseRewiewBtn img {
+    width: 30px;
+    transform: rotate(180deg);
+}
+
+.moreRewiewBtn:hover, .collapseRewiewBtn:hover {
+    animation: gap 0.7s ease-in-out 2 alternate;
+}
+
+
+@keyframes gap {
+    0%,
+    100% {
+        gap: .5rem;
+    }
+    25% {
+        gap: 1rem;
+    }
+    50% {
+        gap: .2rem;
+    }
+    75% {
+        gap: 2.5rem;
+    }
+  }

@@ -1,0 +1,45 @@
+.historyCard {
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #eeeae600;
+    padding: 1rem;
+    color: #e83a4b;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 30px;
+}
+.historyCard:hover {
+    border: 2px solid #eeeae6;
+    background-color: #eeeae685;
+}
+
+@media(max-width:832px) {
+    .historyCard {
+        gap: .5rem;
+        padding: .5rem;
+    }
+    .historyCard h3 {
+        font-size: 16px;
+    }
+    .historyCard p {
+        font-size: 12px;
+    }
+    .happyBob {
+        width: 120px;
+        height: 91px;
+    }
+    .arrow {
+        width: 26px;
+    }
+}
+
+@media(max-width: 540px) {
+    .historyCard {
+        justify-content: center;
+    }
+}

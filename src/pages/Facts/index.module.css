@@ -1,0 +1,41 @@
+
+.container {
+    margin: 0 12%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:  1rem;
+    margin-bottom: 20px;
+}
+
+.container img {
+    width: 150px;
+    margin: auto;
+    height: 111px;
+}
+
+
+@media(max-width: 1024px) {
+    .container {
+        margin: 0 5%;
+    }
+}
+
+@media(max-width:982px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media(max-width:832px) {
+    .container img {
+        width: 120px;
+        height: 91px;
+    }
+}
+
+@media(max-width: 540px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

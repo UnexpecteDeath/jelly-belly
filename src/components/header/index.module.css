@@ -1,0 +1,49 @@
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f5f4;
+    z-index: 10;
+}
+
+.container {
+    width: 100%;
+    margin: 0 12%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.container img {
+    width: 80px;
+}
+
+.logo:hover {
+    animation: favicon-shake 0.4s ease-in-out 2 alternate;
+}
+
+
+@keyframes favicon-shake {
+    0%,
+    100% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+  }
+
+
+@media(max-width: 1024px) {
+  .container {
+    margin: 0 5%;
+  }
+}

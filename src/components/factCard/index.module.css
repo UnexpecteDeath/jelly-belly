@@ -1,0 +1,30 @@
+.fact {
+    align-items: center;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    border: 2px solid #eeeae600;
+    flex-direction: column;
+    padding: 1rem;
+    color: #e83a4b;
+    cursor: pointer;
+}
+
+.fact:hover {
+    border: 2px solid #eeeae6;
+    background-color: #eeeae685;
+}
+
+@media(max-width:832px) {
+    .fact {
+        gap: .5rem;
+        padding: .5rem;
+    }
+    .fact h3 {
+        font-size: 16px;
+    }
+    .fact p {
+        font-size: 14px;
+    }
+}
+
